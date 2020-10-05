@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='style.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/faf00fb8ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src='images/yahoo-logo.png' id='logo' alt='yahoo-logo'>
+        <input name='search' id='search-bar'>
+        <i class="fas fa-search"></i>   
+        <i class="fas fa-sort-down" id='down-arrow'></i>    
+        <img src='images/ernie.jpg' id='profile-pic' alt='profile-picture'>
+    </header>
+    <!-- add 'click here to see the original' -->
+    
+    <div class='news-preview-container'>
+        
+        <div class='vertical-icons-container'>
+            <!-- remember to use <i> here -->
+            <i class="fas fa-envelope" id='envelope'></i>   
+            <i class="far fa-newspaper" id='newspaper'></i>    
+            <i class="fas fa-chart-line" id='chart'></i>    
+            <i class="fas fa-basketball-ball" id='basketball'></i>
+            <i class="fas fa-tape" id='tape'></i>  
+            <i class="fas fa-star fa-rotate-90" id='star'></i>   
+            <i class="fas fa-info" id='info'></i>    
+            <i class="fas fa-car-alt" id='car'></i>   
+            <i class="fas fa-shopping-bag" id='bag'></i>  
+            <i class="fas fa-plane fa-rotate-270" id='plane'></i>    
+            <i class="fas fa-heart" id='heart'></i>    
+            <i class="fas fa-briefcase" id='briefcase'></i>    
+        </div>
+      
+            <img src='images/mr-bean.png' id='mr-bean' alt='mr-bean'>
+            <div class='news-preview-text'>
+            <h1>Mr. Bean: Shattering the Box Office</h1>
+            <p>Hit film starring Rowan Atkinson rakes in nearly $1b during opening weekend</p>
+            <span>Read Full Story</span>
+            </div>
+      
+    </div>
+    <div class='nav-and-weather'> 
+        <nav>
+            <ul>
+                <li>All Stories</li>
+                <li id='news-nav-button'>News</li>
+                <li>Local</li>
+                <li>Entertainment</li>
+                <li>Sports</li>
+                <li>More</li>
+            </ul>
+        </nav>
+        <div class="weather">
+            <span id='city'>Baltimore, MD</span>
+            <span id='temp'>83&deg;</span>
+            <div class='down-arrow-box'>
+                <i class="fas fa-sort-down"></i>
+            </div>
+        </div>
+    </div>
+    <div class='news'>
+        <img id='social-logos' src='images/social-logos.png' alt='tumblr-and-flickr-logos'>
+       
+        <div class='news-articles'>
+      
+            <div class='individual-article'>
+                <span class='article-title'>Oklahoma turns to mammoth trask of cleanup after tornado</span>
+                <span class='article-info'> - Los Angeles Times - 1 hour ago</span>
+            </div>
+           
+            <div class='individual-article'>
+                <span class='article-title'> Obama, in a Shift, to Limit Targets of Drone Strikes</span>
+                <span class='article-info'> - New York Times - 1 hour ago</span>
+            </div>
+          
+            <div class='individual-article'>
+                <span class='article-title'>Major Nelson teases E3 for Xbox One news</span>
+                <span class='article-info'> - PC World - 4 hours ago</span>
+            </div>
+          
+            <div class='individual-article'>
+                <span class='article-title'>US Treasuries, Asian bonds fall on Bets Fed to Taper Stimulus</span>
+                <span class='article-info'> - Bloomberg - 5 hours ago</span>
+            </div>
+           
+            <div class='individual-article'>
+                <span>Merkel tops Forbes power women's list agin</span>
+                <span class='article-info'> - Newsday - 5 hours ago</span>
+            </div>
+        </div>
+        
+        <div class='arrows'>
+            <svg id='up' width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+            </svg>
+            <svg id='down' width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </div>
+       
+        <div class='scores-and-stocks'>
+            <div class='scores'>
+                <span class='section-header'>Scores</span>
+                <br>
+                <span class='item bold'>MLB </span> <span class='item normal'>COL: 5 - SF: 0</span>
+                <br>
+                <span class='item bold'>MLB </span> <span class='item normal'> COL: 5 - SF: 0</span>
+                <br>
+                <span class='item bold'>MLB </span> <span class='item normal'>COL: 5 - SF: 0</span>
+            </div>
+            <div class='stocks'>
+                <span class='section-header'>Stocks</span>
+                <br>
+                <span class='item normal'>AAPL:</span>  <span class='item bold'>443.55</span> <span class='item bold neg'>- 5.30</span>
+                <br>
+                <span class='item normal'>YHOO:</span> <span class='item bold'>52.34</span> <span class='item bold neg'>- 1.45</span>
+            </div>
+        </div>
+    </div>
+    <div class='yahoo-acquires-tumblr'>
+        <img src='images/ferris-wheel.png' id='ferris-wheel' alt='ferris-wheel'>
+        <div class='acquisition-news-section'>
+            <h2>Yahoo! Acquires Tumblr.</h2>
+            <p>
+               Yahoo Inc. has agreed to pay $1.1 billion for Tumblr, 
+               a six-year-old company with more than 100 million users
+               but very little revenue, a deal that highlights the 
+               shifting balance of power in the technology business.
+            </p>
+            <button>Learn More</button>
+        </div>
+    </div>
+</body>
+</html>

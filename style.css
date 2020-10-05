@@ -1,0 +1,442 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+html {
+    height: 100vh;
+}
+
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #6F2886;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+#logo {
+    width: auto; 
+    height: 105%;
+    position: relative;
+    left: 227px;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+header input {
+    position: relative; 
+    left: 238px;
+    outline: none;
+    
+}
+
+input:active {
+    
+}
+
+#search-bar {
+    height: 70%;
+    width: 230px;
+
+}
+
+
+header .fas {
+    position: relative;
+    left: 254px;
+    color: #FCFAFB;
+    cursor: pointer;
+}
+
+header #down-arrow {
+    margin-bottom: .4rem;
+}
+
+
+#profile-pic {
+    position: absolute;
+    height: 30px;
+    width: auto;
+    clip-path: circle(50%);
+    cursor: pointer;
+    right: 20rem;
+}
+
+#profile-pic:hover {
+    filter: brightness(50%);
+}
+
+.news-preview-container {
+    display: flex;
+    background-image: url('images/marble-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#mr-bean {
+    position: relative;
+    height: 95%;
+    align-self: flex-end;
+}
+
+.vertical-icons-container {
+    background-color: white;
+    height: 25rem;
+    width: 2.05rem;
+    position: absolute;
+    margin-right: 98.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fas {
+    font-size: 1.25rem;
+}
+
+.far {
+    font-size: 1.2rem;
+}
+
+.fas:hover, .far:hover {
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+#tape {
+    font-size: 1.1rem;
+}
+
+#envelope {
+    margin-top: 8px;
+    color: #70309E;
+}
+
+#newspaper {
+    color: #058CBC;
+}
+
+#chart {
+    color: #01BFFE;
+}
+
+#basketball {
+    color: #FF7E00;
+}
+
+#tape {
+    color: #4D69FE;
+}
+
+#star {
+    color: #FF0083;
+}
+
+#star:hover {
+    filter: brightness(50%);
+}
+
+#info {
+    color: #FE2B0A;
+}
+
+#car {
+    color: #3037E6;
+}
+
+#bag {
+    color: #FF6802;
+}
+
+#plane {
+    color: #24B2EC;
+}
+
+#plane:hover {
+    filter: brightness(50%);
+}
+
+#heart {
+    color: #F12701;
+}
+
+#briefcase {
+    margin-bottom: 8px;
+    color: #037CF1;
+}
+
+.news-preview-text {
+    color: hsl(240, 5%, 20%);
+    display: flex;
+    flex-direction: column;
+    width: 27.8rem;
+    position: absolute;
+    margin-left: 64rem;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+}
+
+
+.news-preview-text h1 {
+    font-size: 1.55rem;
+    font-weight: 500;
+}
+
+.news-preview-text p { 
+    line-height: 120%;
+    position: relative;
+    bottom: 10px;
+    font-weight: 500;
+} 
+
+.news-preview-text span {
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.news-preview-text span:hover {
+    filter: brightness(180%);
+    text-decoration: underline;
+}
+
+
+
+.nav-and-weather {
+    background-color: #6F2886;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.nav-and-weather ul {
+    display: flex;
+    width: 800px;
+    color: #FCFAFB;
+    align-items: center;
+    position: relative;
+    left: 18%;
+}
+
+.nav-and-weather ul li {
+    height: 42px;
+    padding: 0 1.2rem;
+    line-height: 42px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+#news-nav-button {
+    background-color: #8A3DA3;
+}
+
+.nav-and-weather ul li:hover {
+    background-color: #8A3DA3;
+}
+
+
+.weather {
+    color: #FCFAFB;
+    display: flex;    
+    position: relative;
+    left: 10%;
+}
+
+#city {
+    font-size: 0.8rem;
+    line-height: 42px;
+    margin-right: .5rem;
+}
+
+#temp {
+    font-size: 1.45rem;
+    line-height: 42px;
+}
+
+
+.fa-sort-down {
+    color: black;
+    padding-left: .35rem; 
+    color: #6F2886;
+}
+
+
+.weather div /*down arrow + its box */ {
+    height: 24px;
+    width: 24px;
+    background-color: #8A3DA3;
+    margin-top: 9px;
+    margin-left: 8px;
+}
+
+#social-logos {
+    position: relative;
+    right:3rem;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFC;
+    height: 20rem;
+    align-items: center;
+}
+
+.news-articles {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: space-between;
+    font-size: .9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.individual-article:hover {
+    text-decoration: underline;
+}
+
+.news-articles .article-info {
+    color: #9D6EAF;
+}
+
+     
+.arrows {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 4.5rem;
+}
+
+svg {
+    position: relative;
+    left: 4rem;   
+    margin-bottom: 8rem;  
+    color: #9B4FB1;
+    cursor: pointer;
+}
+
+svg:hover {
+    filter: brightness(50%);
+}
+
+.scores-and-stocks {
+    width: 11.8rem;
+    align-self: flex-start;
+    position: relative;
+    left: 6.5%;
+    color: #FAFAFC;
+    display: flex;
+    flex-direction: column;
+}
+
+.scores {
+    background-color: #8A3DA3;
+    height: 8.8rem;
+}
+
+.stocks {
+    background-color: #9B4FB1;
+    height: 7rem;
+
+}
+
+.scores-and-stocks .section-header {
+    font-size: 1rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: .6rem;
+}
+
+.scores-and-stocks .item {
+    font-size: .7rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    
+}
+
+.scores-and-stocks .bold {
+    font-weight: 500;
+    justify-self: flex-end;
+}
+
+.scores-and-stocks .neg {
+    font-weight: 500;
+}
+
+
+.yahoo-acquires-tumblr {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFCF;
+    height: 38rem;
+    align-items: center;
+}
+
+#ferris-wheel {
+    align-self: flex-end;
+    height: 90%;
+    width: 43%;
+    position: relative;
+    right: 14rem;
+
+}
+
+.acquisition-news-section {
+    color: #6e2986;
+    display: flex;
+    flex-direction: column;
+    width: 38rem;
+    position: relative;
+    right: 14rem;
+    justify-content: flex-end;
+}
+
+.acquisition-news-section h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.acquisition-news-section p {
+    line-height: 160%;
+    font-weight: 500;
+    margin-right: 55px; 
+    font-size: 1.05rem;
+    margin-bottom: 50px;   
+    position: relative;
+    bottom: 32px;
+}
+
+.acquisition-news-section button {
+    background-color:#9b4fb1;
+    color: #FAFAFC;
+    font-size: 1.1rem;
+    padding: 11px 23px;
+    width: 10rem;
+    position: relative;
+    bottom: 56px;
+    cursor: pointer;
+}
+
+.acquisition-news-section button:hover {
+    background-color: hsl(287, 39%, 42%) 
+} 
