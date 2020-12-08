@@ -1,7 +1,7 @@
 # CSS Clone Challenge
 
-#### Target
+## Target
 ![Yahoo! page screenshot](/yahoo_eisenberg.jpg)
 
-#### Result
-
+## Result
+See the result [here](mr-bean.netlify.app)
